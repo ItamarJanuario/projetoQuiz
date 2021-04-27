@@ -1,0 +1,184 @@
+.container {
+  width: 100%;
+  height: 975px;
+  display: flex;
+  justify-content: center;
+
+  /* width: 1300px;
+        height: 800px;
+        overflow: hidden;
+        display: flex;
+        position: relative; */
+}
+
+#title-init {
+  transform: rotate(3deg);
+  margin-top: 20px;
+}
+
+#title-init span {
+  padding: 0px 30px;
+  background-color: rgb(254, 207, 12);
+  border: 2px solid black;
+  font-size: 50px;
+}
+
+#title-init #ola {
+  margin-left: 130px;
+}
+
+.home-screen {
+  display: none;
+  /* display: flex; */
+  flex-direction: column;
+}
+
+.home-screen .dificuldade {
+  display: flex;
+  text-align: center;
+}
+
+.dificuldade {
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  justify-content: center;
+}
+
+.dificuldade button {
+  height: 50px;
+  width: 400px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  box-shadow: inset 0 0 0 0 #ffd723;
+  background-color: #ffd723;
+  color: #33313b;
+  transition: ease-out 0.3s;
+}
+
+.dificuldade #dif-easy:hover {
+  box-shadow: inset 400px 0 0 0 rgb(75, 219, 75);
+  opacity: 1;
+}
+
+.dificuldade #dif-medium:hover {
+  box-shadow: inset 400px 0 0 0 rgb(226, 151, 10);
+  opacity: 1;
+}
+
+.dificuldade #dif-hard:hover {
+  box-shadow: inset 400px 0 0 0 rgb(230, 19, 19);
+  opacity: 1;
+}
+
+/* Categoria css. */
+
+.category-page {
+  display: none;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  height: 90%;
+  justify-content: center;
+}
+
+.category-page h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.category-page span {
+  padding: 0px 30px;
+  background-color: rgb(254, 207, 12);
+  border: 2px solid black;
+}
+
+.category-page select {
+  font-size: 15px;
+  width: 100%;
+  height: 30px;
+}
+
+.category-page button {
+  height: 50px;
+  width: 400px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #ffd723;
+  transition: ease-out 0.3s;
+}
+
+.category-page #button-submit:hover {
+  box-shadow: inset 400px 0 0 0 rgb(75, 219, 75);
+  opacity: 1;
+}
+
+.category-page #button-back:hover {
+  box-shadow: inset 400px 0 0 0 rgb(230, 19, 19);
+  opacity: 1;
+}
+/* css pagina do game */
+.game-screen {
+  /* display: flex; */
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-screen .title-game {
+  height: 20%;
+}
+
+.game-screen #div-options {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-screen #question {
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.final-screen {
+  /* display: flex; */
+  display: none;
+  flex-direction: column;
+}
+
+.final-screen #result {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.final-screen #result b {
+  color: rgb(255, 255, 255);
+}
+
+.final-screen button {
+  height: 50px;
+  width: 400px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #ffd723;
+  transition: ease-out 0.3s;
+}
+
+#countdown {
+  font-size: 30px;
+}

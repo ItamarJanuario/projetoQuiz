@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="reset.css" />
+
+    <title>quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="home-screen">
+        <h1 id="title-init">
+          <span id="ola">Olá, 🙋</span>
+          <br />
+          <span>Bem-vindo ao Quiz.</span>
+        </h1>
+        <div class="dificuldade">
+          <button id="dif-easy">Fácil. 😤</button>
+          <button id="dif-medium">Médio. 😓</button>
+          <button id="dif-hard">Díficil. 💣</button>
+        </div>
+      </div>
+
+      <div class="category-page">
+        <div>
+          <h1><span>categoria desejada.</span></h1>
+
+          <select id="select-category">
+            <option value="">RANDOM</option>
+          </select>
+
+          <div>
+            <button id="button-back" type="button">Voltar.</button>
+            <button id="button-submit" type="button">Confirmar.</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="game-screen">
+        <h1 id="title-init">
+          <span id="ola">Quiz maluco🎮</span>
+        </h1>
+
+        <div id="question"><h1></h1></div>
+  
+        <div id="div-options">
+          <div class="options"></div>
+           
+          </div>
+        </div>
+        <div>
+          <h1 id="atual-point"></h1>
+        </div>
+
+        <div class="time-game"></div>
+      </div>
+
+      <div class="final-screen">
+        <h1 id = "title-init"><span>Resultado final.</span></h1>
+        <div id="result"></div>
+        
+        <button id="button-back-final" type="button">Voltar.</button>
+      </div>
+
+      <div id="myClockDisplay">
+        <p id="countdown">00:10</p>
+      </div>
+      
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
